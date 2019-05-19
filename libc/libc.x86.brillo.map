@@ -319,6 +319,12 @@ LIBC {
     error_one_per_line;
     error_print_progname;
     errx;
+    esm_wait;
+    esm_wait1;
+    esm_ctl;
+    esm_ctl1;
+    esm_register;
+    esm_register1;
     ether_aton;
     ether_aton_r;
     ether_ntoa;

@@ -73,6 +73,16 @@ __packed
 #endif
 ;
 
+//Added for ESM
+struct epoll_event_bare {
+  uint32_t events;
+  uint32_t data;
+}
+#ifdef __x86_64__
+__packed
+#endif
+;
+
 int epoll_create(int);
 int epoll_create1(int);
 int epoll_ctl(int, int, int, struct epoll_event*);

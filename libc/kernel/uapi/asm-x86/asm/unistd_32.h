@@ -484,5 +484,12 @@
 #define __NR_userfaultfd 374
 #define __NR_membarrier 375
 #define __NR_mlock2 376
-#endif
+#define __NR_esm_register 385
 /* WARNING: DO NOT EDIT, AUTO-GENERATED CODE - SEE TOP FOR INSTRUCTIONS */
+#define __NR_esm_wait 386
+#define __NR_esm_register1 387
+#define __NR_esm_wait1 388
+#define __NR_esm_ctl 389
+/* WARNING: DO NOT EDIT, AUTO-GENERATED CODE - SEE TOP FOR INSTRUCTIONS */
+#define __NR_esm_ctl1 390
+#endif
